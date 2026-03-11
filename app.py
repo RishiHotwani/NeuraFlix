@@ -49,7 +49,8 @@ st.markdown("""
 html, body { background-color: var(--dark2) !important; }
 .stApp { background-color: var(--dark2) !important; }
 [class*="css"] { font-family: 'Inter', sans-serif !important; }
-#MainMenu, footer, header { visibility: hidden !important; }
+#MainMenu, footer { visibility: hidden !important; }
+header { visibility: visible !important; }
 .block-container { padding: 1.5rem 2rem 4rem 2rem !important; max-width: 1400px !important; }
 
 /* ── Sidebar – target every known Streamlit Cloud selector ── */
