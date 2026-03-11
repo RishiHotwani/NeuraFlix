@@ -48,16 +48,7 @@ streamlit run app.py
 
 **Use case:** "What should User #3 watch next based on all users' patterns?"
 
-### 3. ⚡ Hybrid Recommender (Weighted Blend)
-**How it works:**
-- Runs both Content-Based and Collaborative pipelines
-- Normalises each score set to [0, 1]
-- Applies configurable weighted blend:  
-  `score = α × content_score + (1-α) × collaborative_score`
-- Default blend: **40% Content + 60% Collaborative**
-- Fully adjustable via real-time sliders
 
-**Use case:** "Best personalised picks combining taste profile + similar movies"
 
 ---
 
