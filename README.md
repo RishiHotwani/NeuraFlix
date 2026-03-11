@@ -1,4 +1,4 @@
-# 🎬 NueralFlix – Netflix-Style Movie Recommendation System
+# 🎬 NeuralFlix – Netflix-Style Movie Recommendation System
 
 A production-grade ML recommendation system with 3 algorithms, OMDB API integration, and a Netflix-inspired Streamlit UI.
 
